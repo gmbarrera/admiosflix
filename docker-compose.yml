@@ -1,0 +1,40 @@
+version: '3.7'
+
+services:
+  db:
+    image: "postgres:11"
+    environment:
+      - POSTGRES_USER=admios
+      - POSTGRES_PASSWORD=passw0rd
+      - POSTGRES_DB=admiosflix
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    healthcheck:
+      test: ["CMD", "pg_isready", "--username", "admios", '-d', 'admiosflix']
+      retries: 3
+      timeout: 30s
+
+  api:
+    build: ./backend
+    env_file:
+       - ./.env.dev
+    command:  >
+      sh -c "python /code/backend/manage.py migrate &&
+             python /code/backend/manage.py loadinitialdata && 
+             python /code/backend/manage.py runserver 0.0.0.0:8000"
+
+    volumes:
+      - .:/code
+    ports:
+      - 8000:8000
+    depends_on:
+      db:
+        condition: service_healthy
+
+  web:
+    build: ./frontend
+    ports:
+      - 3000:3000
+
+volumes:
+  postgres_data:

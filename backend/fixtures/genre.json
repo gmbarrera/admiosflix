@@ -1,0 +1,79 @@
+[
+	{
+		"model": "genre.Genre",
+		"pk": 1,
+		"fields": {
+			"description": "Action"
+		}
+	},
+    {
+		"model": "genre.Genre",
+		"pk": 2,
+		"fields": {
+			"description": "Adventure"
+		}
+	},
+    {
+		"model": "genre.Genre",
+		"pk": 3,
+		"fields": {
+			"description": "Animated"
+		}
+	},
+    {
+		"model": "genre.Genre",
+		"pk": 4,
+		"fields": {
+			"description": "Comedy"
+		}
+	},
+    {
+		"model": "genre.Genre",
+		"pk": 5,
+		"fields": {
+			"description": "Drama"
+		}
+	},
+    {
+		"model": "genre.Genre",
+		"pk": 6,
+		"fields": {
+			"description": "Fantasy"
+		}
+	},
+    {
+		"model": "genre.Genre",
+		"pk": 7,
+		"fields": {
+			"description": "Historical"
+		}
+	},
+    {
+		"model": "genre.Genre",
+		"pk": 8,
+		"fields": {
+			"description": "Horror"
+		}
+	},
+    {
+		"model": "genre.Genre",
+		"pk": 9,
+		"fields": {
+			"description": "Science fiction"
+		}
+	},
+    {
+		"model": "genre.Genre",
+		"pk": 10,
+		"fields": {
+			"description": "Thriller"
+		}
+	},
+    {
+		"model": "genre.Genre",
+		"pk": 11,
+		"fields": {
+			"description": "Western"
+		}
+	}
+]

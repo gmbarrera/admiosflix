@@ -1,0 +1,92 @@
+[
+	{
+		"model": "movie_member.MovieMember",
+		"pk": 1,
+		"fields": {
+			"firstname": "Steven",
+            "lastname": "Spilberg",
+            "rol": 2
+		}
+	},
+    {
+		"model": "movie_member.MovieMember",
+		"pk": 2,
+		"fields": {
+			"firstname": "Lana",
+            "lastname": "Wachowski",
+            "rol": 2
+		}
+	},
+    {
+		"model": "movie_member.MovieMember",
+		"pk": 3,
+		"fields": {
+			"firstname": "Tom",
+            "lastname": "Hanks",
+            "rol": 1
+		}
+	},
+    {
+		"model": "movie_member.MovieMember",
+		"pk": 4,
+		"fields": {
+			"firstname": "Harrison",
+            "lastname": "Ford",
+            "rol": 1
+		}
+	},
+    {
+		"model": "movie_member.MovieMember",
+		"pk": 5,
+		"fields": {
+			"firstname": "Johnny",
+            "lastname": "Depp",
+            "rol": 1
+		}
+	},
+    {
+		"model": "movie_member.MovieMember",
+		"pk": 6,
+		"fields": {
+			"firstname": "Anthony",
+            "lastname": "Hopkins",
+            "rol": 1
+		}
+	},
+    {
+		"model": "movie_member.MovieMember",
+		"pk": 7,
+		"fields": {
+			"firstname": "Angelina",
+            "lastname": "Jolie",
+            "rol": 1
+		}
+	},
+    {
+		"model": "movie_member.MovieMember",
+		"pk": 8,
+		"fields": {
+			"firstname": "Sandra",
+            "lastname": "Bullock",
+            "rol": 1
+		}
+	},
+    {
+		"model": "movie_member.MovieMember",
+		"pk": 9,
+		"fields": {
+			"firstname": "Viola",
+            "lastname": "Davis",
+            "rol": 1
+		}
+	},
+    {
+		"model": "movie_member.MovieMember",
+		"pk": 10,
+		"fields": {
+			"firstname": "Jodie",
+            "lastname": "Foster",
+            "rol": 1
+		}
+	}
+]
